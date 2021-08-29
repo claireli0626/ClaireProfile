@@ -1,0 +1,70 @@
+/*DOCTYPE CSS*/
+/* Ying Li 07/04/2021*/
+/* body and outerwrapper styles */
+html	      { height: 100% }
+body      	  { font-family: Arial, Hevetica, sans-serif;
+				background-color: #E8C2CA;
+				background-image: linear-gradient(#FFFFFF,#E8C2CA);
+				background-repeat: no-repeat;
+				height: 100%;
+				color: #666666; }
+#wrapper  	  { width: 80%;
+				margin-left: auto;
+				margin-right: auto;
+				background-color: #F0EFEB;
+				min-width: 960px;
+				max-width: 2048px;
+				box-shadow: 3px 3px 3px #333333;}
+/*Header styles*/
+Header 	  	  { background-color: #B392AC;
+				height: 60px;
+				padding-top: 15px;
+				text-align: center;		
+				color: #FFFFFF; }
+/* nav and heading styles: h1,h2*/				
+h1     	 	  { font-family: Georgia, "Times New Roman", serif;
+				margin-bottom:0;
+				margin-top: 0;}	
+h2     	  	  { font-family: Georgia, "Times New Roman", serif;
+				color: #8f6d88;
+				text-shadow: 1px 1px 1px #CCCCCC;}
+nav    	  	  { background-color: #F0EFEB; 
+				font-weight: bold;
+				text-align: center;
+				color: #8f6d88;
+				padding: 1em}
+/* main style*/
+main     	  { padding-top: 1px;
+				padding-bottom: 20px;
+				padding-right: 30px;
+				padding-left: 30px;
+				text-align: left;
+				display: block;}
+/* image styles */
+#Picture  	  { float:right;
+				margin:0 75px 5px 10px;
+				border:1px solid #90C7E3;}
+#Picture2 	  { float:right;
+				margin:0 75px 5px 10px;
+				border:1px solid #90C7E3;}
+/*image map with two hot spots*/				
+.hotspot  	  {  background: #fff;
+				 display:block;
+				 height: 200px;
+				 opacity: 0;
+				 position: absolute;}
+#Abbott		  {	 width: 308px; left: 400px;}
+#Casino		  {	 width: 399px; left: 0px;}
+#Abbott:hover, 
+#Casino:hover {  opacity:0.2;}
+/* list bulletin image */
+ul	   	 	  { list-style-image: url(image/picon.gif);}
+/* Other textual elements*/
+dt	   	 	  { color: #002171  }
+.Infor	 	  { color: #8f6d88; 
+				font-weight: bold;}
+footer     	  { font-style: italic; 
+				font-size: 75%; 
+				text-align: center;
+				font-family: Georgia, "Times New Roman", serif;
+				padding: 2em;}
